@@ -1,4 +1,8 @@
 module.exports = {
   stories: [],
-  addons: ['@storybook/addon-knobs/register'],
+  builder: 'webpack5',
+  addons: [
+    '@storybook/addon-essentials',
+    'storybook-addon-angular-ivy',
+  ],
 };
